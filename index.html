@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friendly House</title>
+
+    <link
+      rel="preload"
+      href="./fonts/Comfortaa-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./fonts/HelveticaNeueCyr-Light.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./fonts/HelveticaNeueCyr-Roman.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./fonts/HelveticaNeueCyr-Medium.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="about">
+        <div class="container">
+          <h1 class="about__title">О приюте</h1>
+          <p class="about__content">
+            Приют "Friendly House" - это целый комплекс для бездомных и
+            брошенных животных.
+          </p>
+          <p class="about__content about__content_last">
+            В приюте работает сплочённая команда, которая занимается помощью
+            бездомным животным в течении многих лет. Мы заботимся о качестве
+            жизни наших подопечных и осуществляем профессиональный медицинский
+            уход.
+          </p>
+        </div>
+      </section>
+
+      <section class="help">
+        <div class="container">
+          <h2 class="help__title">Как ты можешь нам помочь?</h2>
+          <ol class="help__items">
+            <li class="help__item">
+              <h2 class="help__item-title">Финансово</h2>
+              <p class="help__item-text help__item-text_first">
+                Мы будем рады любым пожертвованиям. Деньги пойдут на корм,
+                лечение и уход, а также, на обустройство территории, где обитают
+                наши маленькие питомцы.
+              </p>
+            </li>
+            <li class="help__item">
+              <h2 class="help__item-title">Стать волонером</h2>
+              <p class="help__item-text help__item-text_second">
+                Наш приют "Friendly House" привлекает волонтеров для оказания
+                помощи в самых разных форматах! От финансовой помощи и
+                набирающего популярность интеллектуального волонтерства до
+                помощи руками.
+              </p>
+              <p class="help__item-text help__item-text_second">
+                Нам всегда нужна помощь с выгулом подопечных, уборкой помещений,
+                привезти в приют корм или медикаменты, помочь с перевозкой
+                животных в клиники, забрать и привезти вещи и много всего
+                другого. Мы всегда рады любой помощи, присоединяйтесь к нашей
+                дружной команде! :)
+              </p>
+            </li>
+            <li class="help__item">
+              <h2 class="help__item-title">Стать опекуном</h2>
+              <p
+                class="help__item-text help__item-text_third help__item-text_bold"
+              >
+                Хотите друга, но не можете взять домой? Проект опеки - идеальное
+                решение!
+              </p>
+              <p class="help__item-text help__item-text_third">
+                Взять под опеку животное, у которого еще нет опекуна, – это как
+                завести питомца, о котором всю жизнь мечтал, но не мог себе
+                этого позволить по каким-либо причинам.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="contact-form">
+        <div class="container contact-form_container">
+          <h2 class="contact-form__title">Ты можешь помочь нам!</h2>
+          <p class="contact-form__text">
+            Хочешь забрать питомца, стать волонтером, или опекуном?
+          </p>
+          <p class="contact-form__text contact-form__text_color">
+            Свяжись с нами!
+          </p>
+          <div class="contact-form__contacts">
+            <a href="tel:88493003957" class="contact-form__link">
+              <img
+                src="./img/call.svg"
+                alt="телефон"
+                class="contact-form__image"
+              />
+              8 (849) 300 - 39 -57
+            </a>
+            <a href="mailto:FriendlyHouse@gmail.com" class="contact-form__link">
+              <img
+                src="./img/email.svg"
+                alt="электронная почта"
+                class="contact-form__image"
+              />
+              FriendlyHouse@gmail.com
+            </a>
+          </div>
+          <p class="contact-form__text contact-form__text_bottom_20">
+            Или оставь свои контакты и мы сами свяжемся с тобой!
+          </p>
+          <form
+            action="https://jsonplaceholder.typicode.com/posts"
+            class="contact-form__form"
+            method="post"
+          >
+            <div class="contact-form__inputs">
+              <div class="contact-form__form-block">
+                <label for="phone" class="contact-form__label"
+                  >Номер телефона</label
+                >
+                <input
+                  type="tel"
+                  class="contact-form__input"
+                  name="phone"
+                  id="phone"
+                />
+              </div>
+
+              <div class="contact-form__form-block">
+                <label for="email" class="contact-form__label">E-mail</label>
+                <input
+                  type="email"
+                  class="contact-form__input"
+                  name="email"
+                  id="email"
+                />
+              </div>
+            </div>
+
+            <button type="submit" class="contact-form__buttton">
+              Отправить
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

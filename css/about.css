@@ -1,0 +1,15 @@
+.about__title {
+  margin-bottom: 33px;
+  font-size: 50px;
+}
+
+.about__content {
+  margin-bottom: 60px;
+  width: 446px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.about__content_last {
+  margin-bottom: 207px;
+}

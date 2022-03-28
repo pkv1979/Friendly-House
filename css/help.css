@@ -1,0 +1,58 @@
+.help__title {
+  margin-bottom: 134px;
+  font-size: 50px;
+  color: #ff8a00;
+  text-align: center;
+}
+
+.help__items {
+  counter-reset: myCounter;
+}
+
+.help__item {
+  position: relative;
+  margin-bottom: 141px;
+  padding-left: 50px;
+  list-style: none;
+}
+
+.help__item:before {
+  content: counter(myCounter);
+  counter-increment: myCounter;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 50px;
+  color: #ff8a00;
+}
+
+.help__item:last-child {
+  margin-bottom: 0;
+}
+
+.help__item-title {
+  font-size: 30px;
+}
+
+.help__item-text {
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.help__item-text_first {
+  margin-bottom: 131px;
+  width: 380px;
+}
+
+.help__item-text_second {
+  width: 570px;
+}
+
+.help__item-text_third {
+  width: 465px;
+}
+
+.help__item-text_bold {
+  width: 400px;
+  font-weight: 500;
+}
