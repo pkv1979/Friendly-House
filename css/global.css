@@ -17,8 +17,8 @@ body {
   font-size: 20px;
   font-weight: 400;
   font-style: normal;
-  color: #282626;
-  background-color: #ffffff;
+  color: var(--main-color);
+  background-color: var(--main-background);
 }
 
 img {
@@ -72,12 +72,7 @@ section {
 }
 
 .container {
-  max-width: 1260px;
+  max-width: 1240px;
   padding: 0 30px;
   margin: 0 auto;
-}
-
-.main {
-  padding-top: 99px;
-  padding-bottom: 179px;
 }
