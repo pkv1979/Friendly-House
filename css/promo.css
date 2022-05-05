@@ -1,0 +1,24 @@
+.promo {
+  padding-bottom: 115px;
+}
+
+.promo__container {
+  padding-left: 130px;
+  background: url("../img/happy-dog.png") no-repeat top right;
+}
+
+.promo__title {
+  padding-top: 137px;
+  margin-bottom: 81px;
+  max-width: 400px;
+  font-family: Comfortaa, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.promo__title_text_orange {
+  color: var(--color-orange);
+  font-weight: 400;
+  font-size: 60px;
+}
