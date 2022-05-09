@@ -1,6 +1,12 @@
+.help {
+  background-color: var(--secondary-background);
+}
+
 .help__title {
-  margin-bottom: 134px;
+  margin-bottom: 50px;
+  font-family: Comfortaa, Arial, sans-serif;
   font-size: 50px;
+  font-weight: 400;
   color: #ff8a00;
   text-align: center;
 }
@@ -12,7 +18,7 @@
 .help__item {
   position: relative;
   margin-bottom: 141px;
-  padding-left: 50px;
+  padding-left: 100px;
   list-style: none;
 }
 
@@ -20,10 +26,21 @@
   content: counter(myCounter);
   counter-increment: myCounter;
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
   top: 0;
   left: 0;
   font-size: 50px;
   color: #ff8a00;
+  background-color: var(--main-background);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .help__item:last-child {
@@ -31,6 +48,9 @@
 }
 
 .help__item-title {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  font-weight: 500;
   font-size: 30px;
 }
 
